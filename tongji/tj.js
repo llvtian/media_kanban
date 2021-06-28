@@ -44,7 +44,7 @@
             var jumpUrl = "https://v.ksc.app";
             // 判断是否为移动端
             var imgUrl = "https:////video.lvtian.vip/wxqrcode_128.gif";// 图片地址
-            var cssStyle = " position: fixed; right: 0;bottom: 170px; z-index: 99999999;";// 样式
+            var cssStyle = " position: fixed; right: 0;bottom: 80px; z-index: 99999999;";// 样式
             var toLink = function () {
                 window.open(jumpUrl);
                 // window.location.href = jumpUrl; //跳转链接   没有
@@ -53,20 +53,20 @@
             if (browser.versions.mobile || browser.versions.android || browser.versions.ios) {
                 // console.info("移动端");
                 // imgUrl = "https:////video.lvtian.vip/guanzhu.gif";// 图片地址
-                cssStyle = "position: fixed;bottom: 170px;right: 0;z-index: 99999999; width: 25%;";// 样式
+                cssStyle = "position: fixed;bottom: 80px;right: 0;z-index: 99999999; width: 20%;";// 样式
                 // toLink = function () {
                 //     window.location.href = jumpUrl;//跳转链接
                 // }
             }
             guangGao(imgUrl, cssStyle,imgStyle,toLink)
             var leftImgUrl = "https:////video.lvtian.vip/left.gif";// 图片地址
-            var leftCssStyle = " position: fixed; left: 0;bottom: 170px; z-index: 99999999;";// 样式
+            var leftCssStyle = " position: fixed; left: 0;bottom: 80px; z-index: 99999999;";// 样式
             var leftToLink = function () {
                 window.open(jumpUrl);
             }
             var leftImgStyle = "width: 100%;";
             if (browser.versions.mobile || browser.versions.android || browser.versions.ios) {
-                leftCssStyle = "position: fixed;bottom: 170px;left: 0;z-index: 99999999; width: 25%;";// 样式
+                leftCssStyle = "position: fixed;bottom: 80px;left: 0;z-index: 99999999; width: 20%;";// 样式
             }
             guangGao(leftImgUrl, leftCssStyle,leftImgStyle,leftToLink)
         }
