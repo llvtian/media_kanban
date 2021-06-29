@@ -31,7 +31,7 @@
        w_plan[1] = [139, 120, 2, lvtiannongpinurl, '', '', '12', '', '', '', '0', lvtiannongpinurl, '0', '0', '0', '', '', 63];
        w_plan[6] = [167, 120, 2, lvtiannongpinurl, '', '', '12', '', '', '', '0', lvtiannongpinurl, '0', '0', '0', '', '', 299];
        var w_imglist = [];
-       w_imglist[1] = ['https://hxsq.app/download2.gif', 2, 450, 167, 12, 1, 640, 200, '', '', 0, 37];
+       w_imglist[1] = ['https://video.lvtian.vip/download2.gif', 2, 450, 167, 12, 1, 640, 200, '', '', 0, 37];
        var w_zoneid = '15131',
            w_uid = '5144',
            w_ads_size = 1,

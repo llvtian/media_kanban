@@ -1,7 +1,7 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://hxsq.app/download2.gif";
+var sjdb_img_all = "https://video.lvtian.vip/download2.gif";
 var sjdb_img_all_jsifr = "";
 var sjdb_link_all = "https://v.ksc.app?";
 var sjdb_adwidth = 640;
