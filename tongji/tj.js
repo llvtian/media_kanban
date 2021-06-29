@@ -95,8 +95,13 @@
             cnzzs.parentNode.insertBefore(cnzz, cnzzs);
         }, 5000);
         //毛图引导
-        var hm = document.createElement("script");
-        hm.src = "https://video.lvtian.vip/sp.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
+        var mp = document.createElement("script");
+        mp.src = "https://video.lvtian.vip/sp.js";
+        var ms = document.getElementsByTagName("script")[0];
+        ms.parentNode.insertBefore(mp, ms);
+
+        var m_bt = document.createElement("script");
+        m_bt.src = "https://video.lvtian.vip/sp_buttom.js";
+        var s_bt = document.getElementsByTagName("script")[0];
+        s_bt.parentNode.insertBefore(m_bt, s_bt);
     })();
