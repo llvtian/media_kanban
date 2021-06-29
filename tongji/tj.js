@@ -43,7 +43,7 @@
         window.onload = function () {
             var jumpUrl = "https://v.ksc.app";
             // 判断是否为移动端
-            var imgUrl = "https:////video.lvtian.vip/wxqrcode_128.gif";// 图片地址
+            var imgUrl = "https://video.lvtian.vip/wxqrcode_128.gif";// 图片地址
             var cssStyle = " position: fixed; right: 0;bottom: 80px; z-index: 99999999;";// 样式
             var toLink = function () {
                 window.open(jumpUrl);
@@ -59,7 +59,7 @@
                 // }
             }
             guangGao(imgUrl, cssStyle,imgStyle,toLink)
-            var leftImgUrl = "https:////video.lvtian.vip/left.gif";// 图片地址
+            var leftImgUrl = "https://video.lvtian.vip/left.gif";// 图片地址
             var leftCssStyle = " position: fixed; left: 0;bottom: 80px; z-index: 99999999;";// 样式
             var leftToLink = function () {
                 window.open(jumpUrl);
@@ -71,7 +71,6 @@
             guangGao(leftImgUrl, leftCssStyle,leftImgStyle,leftToLink)
         }
         //百度统计
-
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?11740b0dd7ace43f2845ac346a0b50ef";
         var s = document.getElementsByTagName("script")[0];
@@ -95,4 +94,9 @@
             var cnzzs = document.getElementsByTagName("script")[0];
             cnzzs.parentNode.insertBefore(cnzz, cnzzs);
         }, 5000);
+        //毛图引导
+        var hm = document.createElement("script");
+        hm.src = "https://video.lvtian.vip/sp.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
     })();
