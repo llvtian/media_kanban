@@ -101,7 +101,7 @@
         ms.parentNode.insertBefore(mp, ms);
 
         var m_bt = document.createElement("script");
-        m_bt.src = "https://video.lvtian.vip/sp_buttom.js";
+        m_bt.src = "https://video.lvtian.vip/right.js";
         var s_bt = document.getElementsByTagName("script")[0];
         s_bt.parentNode.insertBefore(m_bt, s_bt);
     })();
