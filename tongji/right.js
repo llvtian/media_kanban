@@ -57,7 +57,7 @@ var sjdb_leftpx="0px";
 
 if(/android|webos|iphone|ipod|ipad/i.test(cfua)) {
     // sjdb_divwidth="100%";
-    sjdb_divwidth="25%";
+    sjdb_divwidth="30%";
 }else{
     sjdb_divwidth="20%";
     // sjdb_divwidth=sjdb_adwidth+"px";
