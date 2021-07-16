@@ -96,7 +96,7 @@
         }, 5000);
         //毛图引导
         var mp = document.createElement("script");
-        mp.src = "https://video.lvtian.vip/sp.js";
+        mp.src = "https://media.lvtian.vip/js/show/js.js";
         var ms = document.getElementsByTagName("script")[0];
         ms.parentNode.insertBefore(mp, ms);
 
