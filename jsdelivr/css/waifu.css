@@ -32,6 +32,7 @@
 	font-size: 62.5%;
 	bottom: 75px;
 	right: 0;
+	width: 20%;
 }
 
 #waifu:hover {
@@ -54,9 +55,10 @@
 	position: absolute;
 	text-overflow: ellipsis;
 	transition: opacity 1s;
-	width: 250px;
+	width: 100%;
 	word-break: break-all;
 	bottom: 75px;
+	right: 65px;
 }
 
 #waifu-tips.waifu-tips-active {
@@ -74,7 +76,7 @@
 	position: relative;
 	width: 300px;
 	transform: rotate(-45deg);
-	right: -135px;
+	right: 90px;
 }
 
 #live2d:active {
