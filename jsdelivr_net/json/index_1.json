@@ -1,0 +1,40 @@
+{
+    "type":"Live2D Model Setting",
+    "name":"22-3695903",
+    "label":"22",
+    "model":"model.moc",
+    "textures":[
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/assets/closet-default-v2.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/assets/default-upper.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/assets/default-lower.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/assets/default-hat.png"
+    ],
+    "layout":{
+        "center_x": 0,
+        "center_y": 0.1,
+        "width": 2.3,
+        "height": 2.3
+    },
+    "hit_areas_custom":{
+		"head_x":[-0.33, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-0.3, -0.25],
+		"body_y":[0.3, -0.9]
+	},
+    "motions":{
+        "idle":[
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/idle-01.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/idle-02.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/idle-03.mtn","fade_in":100,"fade_out":100}
+        ],
+        "flick_head":[
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/touch.mtn","fade_in":500,"fade_out":200}
+        ],
+        "tap_body":[
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/touch.mtn","fade_in":500,"fade_out":200}
+        ],
+        "thanking":[
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/thanking.mtn","fade_in":2000,"fade_out":2000}
+        ]
+    }
+}

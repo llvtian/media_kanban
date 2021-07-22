@@ -3,7 +3,6 @@
  * https://github.com/stevenjoezhang/live2d-widget
  */
 
-var live2d_path = "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr/";
 var ajax_json_name_arr = ["index_1.json","index_2.json"];
 var ajax_json_name = ajax_json_name_arr[Math.floor(Math.random() * ajax_json_name_arr.length)];
 function loadWidget(config) {
