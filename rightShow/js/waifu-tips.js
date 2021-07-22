@@ -44,7 +44,7 @@ function loadWidget(config) {
 	let userAction = false,
 		userActionTimer,
 		messageTimer,
-		messageArray = ["好看的人都关注了我","微信关注'互惠共享'","我们有各种免费影视","电视,动漫,电影,综艺","只要你喜欢,就来找我哦"];
+		messageArray = ["我们有各种免费影视[电视,动漫,电影,综艺]哦"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	setInterval(() => {
