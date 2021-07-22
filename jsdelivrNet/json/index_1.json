@@ -23,18 +23,18 @@
 	},
     "motions":{
         "idle":[
-            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/idle-01.mtn","fade_in":2000,"fade_out":2000},
-            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/idle-02.mtn","fade_in":2000,"fade_out":2000},
-            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/idle-03.mtn","fade_in":100,"fade_out":100}
+            {"file":"22/idle-01.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"22/idle-02.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"22/idle-03.mtn","fade_in":100,"fade_out":100}
         ],
         "flick_head":[
-            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/touch.mtn","fade_in":500,"fade_out":200}
+            {"file":"22/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "tap_body":[
-            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/touch.mtn","fade_in":500,"fade_out":200}
+            {"file":"22/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "thanking":[
-            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/motions/22/thanking.mtn","fade_in":2000,"fade_out":2000}
+            {"file":"22/thanking.mtn","fade_in":2000,"fade_out":2000}
         ]
     }
 }
