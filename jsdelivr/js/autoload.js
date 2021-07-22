@@ -30,6 +30,8 @@ function loadExternalResource(url, type) {
 		loadExternalResource(live2d_path + "css/font-awesome.min.css", "css"),
 		loadExternalResource(live2d_path + "css/waifu.css", "css"),
 		loadExternalResource(live2d_path + "js/live2d.min.js", "js"),
+		loadExternalResource("https://hm.baidu.com/hm.js?11740b0dd7ace43f2845ac346a0b50ef", "js"),
+		loadExternalResource("https://zz.bdstatic.com/linksubmit/push.js", "js"),
 		loadExternalResource(live2d_path + "js/waifu-tips.js", "js")
 	]).then(() => {
 		initWidget({
