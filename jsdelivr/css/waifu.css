@@ -30,7 +30,7 @@
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
 	z-index: 99999999;
 	font-size: 62.5%;
-	bottom: 36px;
+	bottom: 75px;
 	right: 0;
 }
 
@@ -74,7 +74,7 @@
 	position: relative;
 	width: 300px;
 	transform: rotate(-45deg);
-	right: -115px;
+	right: -135px;
 }
 
 #live2d:active {
