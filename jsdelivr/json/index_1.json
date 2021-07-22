@@ -4,10 +4,10 @@
     "label":"22",
     "model":"model.moc",
     "textures":[
-        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/assets/closet-default-v2.png",
-        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/assets/default-upper.png",
-        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/assets/default-lower.png",
-        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/assets/default-hat.png"
+        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr/assets/closet-default-v2.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr/assets/default-upper.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr/assets/default-lower.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr/assets/default-hat.png"
     ],
     "layout":{
         "center_x": 0,
