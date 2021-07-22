@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/rightShow/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -33,9 +33,9 @@ function loadExternalResource(url, type) {
 		loadExternalResource(live2d_path + "js/waifu-tips.js", "js")
 	]).then(() => {
 		initWidget({
-			waifuPath: "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/rightShow/json/waifu-tips.json",
-			apiPath: "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/rightShow/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/rightShow/"
+			waifuPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/json/waifu-tips.json",
+			apiPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/",
+			cdnPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/rightShow/"
 		});
 	});
 // }
