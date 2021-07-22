@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
     "use strict";
 
     if (!CSS.supports("clip-path", "circle(120px at center)")) {
-        document.getElementById("stage").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/assets/screenshot-1.png">';
+        document.getElementById("stage").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/cndJsdelivrNet/assets/screenshot-1.png">';
         return;
     }
 
@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
         localStorage.setItem("modelId", modelId);
         if (modelTexturesId === undefined) modelTexturesId = 0;
         localStorage.setItem("modelTexturesId", modelTexturesId);
-        loadlive2d("live2d", `https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/jsdelivr_net/json/index_2.json?id=${modelId}-${modelTexturesId}`, null);
+        loadlive2d("live2d", `https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/cndJsdelivrNet/json/index_2.json?id=${modelId}-${modelTexturesId}`, null);
         console.log("live2d", `模型 ${modelId}-${modelTexturesId} 加载完成`);
         setTimeout(() => {
             coverPosition("80%");
