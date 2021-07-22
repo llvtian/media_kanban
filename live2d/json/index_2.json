@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "model": "model_1.moc",
   "textures": [
-    "../assets/school-2017-costume-yellow.png"
+    "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/assets/school-2017-costume-yellow.png"
   ],
   "layout": {
     "center_x": 0,
@@ -30,76 +30,76 @@
   "motions": {
     "idle": [
       {
-        "file": "../motions/master/Breath1.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Breath1.mtn"
       },
       {
-        "file": "../motions/master/Breath2.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Breath2.mtn"
       },
       {
-        "file": "../motions/master/Breath3.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Breath3.mtn"
       },
       {
-        "file": "../motions/master/Breath5.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Breath5.mtn"
       },
       {
-        "file": "../motions/master/Breath7.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Breath7.mtn"
       },
       {
-        "file": "../motions/master/Breath8.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Breath8.mtn"
       }
     ],
     "sleepy": [
       {
-        "file": "../motions/master/Sleeping.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Sleeping.mtn"
       }
     ],
     "flick_head": [
       {
-        "file": "../motions/master/Touch Dere1.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch Dere1.mtn"
       },
       {
-        "file": "../motions/master/Touch Dere2.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch Dere2.mtn"
       },
       {
-        "file": "../motions/master/Touch Dere3.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch Dere3.mtn"
       },
       {
-        "file": "../motions/master/Touch Dere4.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch Dere4.mtn"
       },
       {
-        "file": "../motions/master/Touch Dere5.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch Dere5.mtn"
       },
       {
-        "file": "../motions/master/Touch Dere6.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch Dere6.mtn"
       }
     ],
     "tap_body": [
       {
-        "file": "../motions/master/Sukebei1.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Sukebei1.mtn"
       },
       {
-        "file": "../motions/master/Sukebei2.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Sukebei2.mtn"
       },
       {
-        "file": "../motions/master/Sukebei3.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Sukebei3.mtn"
       },
       {
-        "file": "../motions/master/Touch1.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch1.mtn"
       },
       {
-        "file": "../motions/master/Touch2.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch2.mtn"
       },
       {
-        "file": "../motions/master/Touch3.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch3.mtn"
       },
       {
-        "file": "../motions/master/Touch4.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch4.mtn"
       },
       {
-        "file": "../motions/master/Touch5.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch5.mtn"
       },
       {
-        "file": "../motions/master/Touch6.mtn"
+        "file": "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/master/Touch6.mtn"
       }
     ]
   }

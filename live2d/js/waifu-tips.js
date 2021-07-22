@@ -2,6 +2,8 @@
  * Live2D Widget
  * https://github.com/stevenjoezhang/live2d-widget
  */
+
+var live2d_path = "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/";
 var ajax_json_name_arr = ["index_1.json","index_2.json"];
 var ajax_json_name = ajax_json_name_arr[Math.floor(Math.random() * ajax_json_name_arr.length)];
 function loadWidget(config) {
@@ -204,7 +206,7 @@ function loadWidget(config) {
 	})();
 
 	async function loadModelList() {
-		const response = await fetch(`../live2d/json/model_list.json`);
+		const response = await fetch(live2d_path+`json/model_list.json`);
 		modelList = await response.json();
 	}
 
@@ -215,7 +217,7 @@ function loadWidget(config) {
 		if (useCDN) {
 			if (!modelList) await loadModelList();
 			const target = randomSelection(modelList.models[modelId]);
-			loadlive2d("live2d", `../live2d/json/`+ajax_json_name);
+			loadlive2d("live2d", live2d_path+`json/`+ajax_json_name);
 		} else {
 			loadlive2d("live2d", `${apiPath}get/?id=${modelId}-${modelTexturesId}`);
 			console.log(`Live2D 模型 ${modelId}-${modelTexturesId} 加载完成`);
@@ -228,7 +230,7 @@ function loadWidget(config) {
 		if (useCDN) {
 			if (!modelList) await loadModelList();
 			const target = randomSelection(modelList.models[modelId]);
-			loadlive2d("live2d", `../live2d/json/`+ajax_json_name);
+			loadlive2d("live2d", live2d_path+`json/`+ajax_json_name);
 			showMessage("我的新衣服好看嘛？", 4000, 10);
 		} else {
 			// 可选 "rand"(随机), "switch"(顺序)

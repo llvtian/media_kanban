@@ -4,10 +4,10 @@
     "label":"22",
     "model":"model.moc",
     "textures":[
-        "../assets/closet-default-v2.png",
-        "../assets/default-upper.png",
-        "../assets/default-lower.png",
-        "../assets/default-hat.png"
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/assets/closet-default-v2.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/assets/default-upper.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/assets/default-lower.png",
+        "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/assets/default-hat.png"
     ],
     "layout":{
         "center_x": 0,
@@ -23,18 +23,18 @@
 	},
     "motions":{
         "idle":[
-            {"file":"../motions/22/idle-01.mtn","fade_in":2000,"fade_out":2000},
-            {"file":"../motions/22/idle-02.mtn","fade_in":2000,"fade_out":2000},
-            {"file":"../motions/22/idle-03.mtn","fade_in":100,"fade_out":100}
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/22/idle-01.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/22/idle-02.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/22/idle-03.mtn","fade_in":100,"fade_out":100}
         ],
         "flick_head":[
-            {"file":"../motions/22/touch.mtn","fade_in":500,"fade_out":200}
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/22/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "tap_body":[
-            {"file":"../motions/22/touch.mtn","fade_in":500,"fade_out":200}
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/22/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "thanking":[
-            {"file":"../motions/22/thanking.mtn","fade_in":2000,"fade_out":2000}
+            {"file":"https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/motions/22/thanking.mtn","fade_in":2000,"fade_out":2000}
         ]
     }
 }
