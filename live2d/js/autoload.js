@@ -33,9 +33,9 @@ function loadExternalResource(url, type) {
 		loadExternalResource(live2d_path + "js/waifu-tips.js", "js")
 	]).then(() => {
 		initWidget({
-			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
+			waifuPath: live2d_path + "json/waifu-tips.json",
+			apiPath: "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/",
+			cdnPath: "https://cdn.jsdelivr.net/gh/llvtian/proxy_menu@main/live2d/"
 		});
 	});
 // }
