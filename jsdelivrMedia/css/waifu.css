@@ -32,7 +32,6 @@
 	font-size: 62.5%;
 	bottom: 75px;
 	right: 0;
-	width: 20%;
 }
 
 #waifu:hover {
@@ -76,7 +75,7 @@
 	position: relative;
 	width: 300px;
 	transform: rotate(-45deg);
-	right: 90px;
+	right: -130px;
 }
 
 #live2d:active {
@@ -109,6 +108,10 @@
 	color: #0684bd; /* #34495e */
 }
 
+@media screen and (min-width: 768px) {
+	#waifu{width: 20%;}
+	#live2d{right: 90px;}
+}
 @media screen and (min-width: 320px) {
 	#waifu-tips,#waifu-tips.waifu-tips-active{font-size: 55.556% !important;}
 }
