@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="697203496">
+        <InLine>
+            <AdSystem>GDFP</AdSystem>
+            <AdTitle>External NCA1C1L1 Linear Inline</AdTitle>
+            <Description><![CDATA[External NCA1C1L1 Linear Inline ad]]></Description>
+            <Error><![CDATA[https://v.psc.app?[ERRORCODE]]]></Error>
+            <Impression><![CDATA[https://v.psc.app]]></Impression>
+            <Creatives>
+                <Creative id="57859154776" sequence="1">
+                    <Linear>
+                        <Duration>00:00:05</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="complete"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="mute"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="pause"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="resume"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="creativeView"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="acceptInvitationLinear"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="closeLinear"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                            <Tracking event="exitFullscreen"><![CDATA[//v.psc.app?[AD_MT]]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough id="GDFP"><![CDATA[//v.psc.app?[gw_fbsaeid]&adurl=//v.psc.app]]></ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="GDFP" delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="450" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="176" height="144" type="video/3gpp" bitrate="36" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="320" height="180" type="video/3gpp" bitrate="69" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="640" height="360" type="video/mp4" bitrate="118" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="640" height="360" type="video/webm" bitrate="119" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="1280" height="720" type="video/webm" bitrate="229" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="854" height="480" type="video/webm" bitrate="132" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                            <MediaFile id="GDFP" delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="241" scalable="true" maintainAspectRatio="true"><![CDATA[https://lvtianxinyuanqiniu.lvtian.vip/huhuigongxiangxiaochengxu.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative id="57857370976" sequence="1">
+                    <CompanionAds>
+                        <Companion id="57857370976" width="300" height="250">
+                            <StaticResource creativeType="image/png"><![CDATA[https://www.psc.app/static/images/huhuigognxiang.jpg]]></StaticResource>
+                            <TrackingEvents>
+                                <Tracking event="creativeView"><![CDATA[//v.psc.app]]></Tracking>
+                            </TrackingEvents>
+                            <CompanionClickThrough><![CDATA[//v.psc.app]]></CompanionClickThrough>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+            <Extensions><Extension type="waterfall" fallback_index="0"/><Extension type="geo"><Country>PH</Country><Bandwidth>4</Bandwidth><BandwidthKbps>11100</BandwidthKbps></Extension><Extension type="metrics"><FeEventId>6sTqYLOoL4qZ9gWKjKqQAg</FeEventId><AdEventId>CIOT3tnk2vECFXuD6QUd-yMNSg</AdEventId></Extension><Extension type="ShowAdTracking"><CustomTracking><Tracking event="show_ad"><![CDATA[//v.psc.app]]></Tracking></CustomTracking></Extension><Extension type="video_ad_loaded"><CustomTracking><Tracking event="loaded"><![CDATA[//v.psc.app]]></Tracking></CustomTracking></Extension></Extensions>
+        </InLine>
+    </Ad>
+</VAST>
