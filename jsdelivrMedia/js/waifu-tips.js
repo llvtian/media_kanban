@@ -149,7 +149,7 @@ function loadWidget(config) {
 			messageTimer = null;
 		}
 		text = randomSelection(text);
-		text += "<br/>追剧大神们都关注了微信公众号 [互惠共享] 哦";
+		text += "<br/>各大免费影视资源网都加入了微信公众号 [互惠共享] 哦!互惠共享,川流不息"
 		sessionStorage.setItem("waifu-text", priority);
 		const tips = document.getElementById("waifu-tips");
 		tips.innerHTML = text;
