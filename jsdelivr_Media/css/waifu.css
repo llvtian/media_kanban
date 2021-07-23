@@ -108,7 +108,7 @@
 	color: #0684bd; /* #34495e */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 	#waifu{width: 20%;}
 	#live2d{right: 90px;}
 }

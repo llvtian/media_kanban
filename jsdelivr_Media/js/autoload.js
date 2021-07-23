@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivrNetMedia/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr_Media/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -27,17 +27,17 @@ function loadExternalResource(url, type) {
 // 加载 waifu.css live2d.min.js waifu-tips.js
 // if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://hm.baidu.com/hm.js?11740b0dd7ace43f2845ac346a0b50ef", "js"),
-		loadExternalResource("https://zz.bdstatic.com/linksubmit/push.js", "js"),
 		loadExternalResource(live2d_path + "css/font-awesome.min.css", "css"),
 		loadExternalResource(live2d_path + "css/waifu.css", "css"),
 		loadExternalResource(live2d_path + "js/live2d.min.js", "js"),
+		loadExternalResource("https://hm.baidu.com/hm.js?11740b0dd7ace43f2845ac346a0b50ef", "js"),
+		loadExternalResource("https://zz.bdstatic.com/linksubmit/push.js", "js"),
 		loadExternalResource(live2d_path + "js/waifu-tips.js", "js")
 	]).then(() => {
 		initWidget({
-			waifuPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivrNetMedia/json/waifu-tips.json",
-			apiPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivrNetMedia/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivrNetMedia/"
+			waifuPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr_Media/json/waifu-tips.json",
+			apiPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr_Media/",
+			cdnPath: "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/jsdelivr_Media/"
 		});
 	});
 // }
