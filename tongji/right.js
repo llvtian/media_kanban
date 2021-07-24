@@ -3,14 +3,14 @@ var sjdb_logobtn = 0;
 
 var sjdb_img_all = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/tongji/right.jpg";
 var sjdb_img_all_jsifr = "";
-var sjdb_link_all = "https://v.ksc.app?";
+var sjdb_link_all = "https://media.lvtian.vip/guanzhu.html?";
 var sjdb_adwidth = 640;
 var sjdb_adheight = 200;
-var sjdb_sysurl = "https://video.lvtian.vip/";
-var sjdb_sysclickurl = "https://v.ksc.app?";
+var sjdb_sysurl = sjdb_link_all;
+var sjdb_sysclickurl = sjdb_link_all;
 var sjdb_userid = 172;
 var sjdb_visittotal=1;
-var sjdb_clickurl_2="https://v.ksc.app?";
+var sjdb_clickurl_2= sjdb_link_all;
 
 
 var mysplit = sjdb_img_all.split(',');
