@@ -109,7 +109,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	#waifu{width: 20%;}
+	#waifu{width: 20%;right: -20%;}
 	#live2d{right: -200%;}
 	#waifu-tips{right: 80%;}
 	#waifu-tool{right: 0;}

@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "model": "model_1.moc",
   "textures": [
-    "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/cdn_jsdelivr_Media/assets/school-2017-costume-yellow.png"
+    "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/cdnjsdelivrMedia/assets/school-2017-costume-yellow.png"
   ],
   "layout": {
     "center_x": 0,
