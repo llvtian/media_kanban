@@ -110,7 +110,9 @@
 
 @media screen and (max-width: 768px) {
 	#waifu{width: 20%;}
-	#live2d{right: 90px;}
+	#live2d{right: -200%;}
+	#waifu-tips{right: 80%;}
+	#waifu-tool{right: 0;}
 }
 @media screen and (min-width: 320px) {
 	#waifu-tips,#waifu-tips.waifu-tips-active{font-size: 55.556% !important;}

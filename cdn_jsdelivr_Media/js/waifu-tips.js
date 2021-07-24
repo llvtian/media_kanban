@@ -154,9 +154,11 @@ function loadWidget(config) {
 		const tips = document.getElementById("waifu-tips");
 		tips.innerHTML = text;
 		tips.classList.add("waifu-tips-active");
+		tips.style.display = "block";
 		messageTimer = setTimeout(() => {
 			sessionStorage.removeItem("waifu-text");
 			tips.classList.remove("waifu-tips-active");
+			tips.style.display = "none";
 		}, timeout);
 	}
 
