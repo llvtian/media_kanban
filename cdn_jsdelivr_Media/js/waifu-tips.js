@@ -45,6 +45,7 @@ function loadWidget(config) {
 		userActionTimer,
 		messageTimer,
 		messageArray = [""];
+		// messageArray = ["我们有各种免费影视[电视,动漫,电影,综艺]哦"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	setInterval(() => {
