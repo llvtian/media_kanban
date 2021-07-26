@@ -101,7 +101,7 @@ var _hmt = _hmt || [];
         // ms.parentNode.insertBefore(mp, ms);
 
         var m_bt = document.createElement("script");
-        m_bt.src = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/tongji/right_wwwzsc.js";
+        m_bt.src = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/tongji/right_zsc.js";
         var s_bt = document.getElementsByTagName("script")[0];
         s_bt.parentNode.insertBefore(m_bt, s_bt);
     }else{
