@@ -1,7 +1,7 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/tongji/zscright.jpg";
+var sjdb_img_all = "https://cdn.jsdelivr.net/gh/llvtian/media_kanban@main/tongji/wwwzscright.jpg";
 var sjdb_img_all_jsifr = "";
 var sjdb_link_all = "https://media.lvtian.vip/guanzhu.html?";
 var sjdb_adwidth = 640;
