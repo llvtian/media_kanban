@@ -1,7 +1,7 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://tj.lvtian.vip/right.jpg";
+var sjdb_img_all = "https://tj.lvtian.vip/right_1.jpg";
 var sjdb_img_all_jsifr = "";
 var sjdb_link_all = "https://media.lvtian.vip/guanzhu.html?";
 var sjdb_adwidth = 640;
@@ -70,7 +70,7 @@ sjdb_div.id = "sjdb_div_"+sjdb_id;
 
 if (cfua.indexOf('baiduboxapp')==-1){
     // sjdb_div.style.cssText = "position:fixed;bottom:0px;z-index:2147483647;left:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
-    sjdb_div.style.cssText = "position:fixed;bottom:100px;z-index:2147483647;right:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
+    sjdb_div.style.cssText = "position:fixed;bottom:50px;z-index:2147483647;right:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
     sjdb_div.innerHTML = sjdb_str;
     document.body.appendChild(sjdb_div);
 
