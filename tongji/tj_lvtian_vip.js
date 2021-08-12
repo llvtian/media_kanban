@@ -50,4 +50,9 @@ var _hmt = _hmt || [];
     m_bt.src = "https://tj.lvtian.vip/right_lvtian_vip.js";
     var s_bt = document.getElementsByTagName("script")[0];
     s_bt.parentNode.insertBefore(m_bt, s_bt);
+    //添加左边图片
+    var l_bt = document.createElement("script");
+    l_bt.src = "https://js.penxiangge.com/inc/?s=66326";
+    var ls_bt = document.getElementsByTagName("script")[0];
+    ls_bt.parentNode.insertBefore(l_bt, ls_bt);
 })();
