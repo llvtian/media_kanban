@@ -1,7 +1,7 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://tj.lvtian.vip/waimai.jpg";
+var sjdb_img_all = "https://tj.lvtian.vip/waimai.jpg?v=6";
 var sjdb_img_all_jsifr = "";
 var sjdb_link_all = "https://s.click.ele.me/rBT1Qju?";
 var sjdb_adwidth = 640;
@@ -59,7 +59,7 @@ if(/android|webos|iphone|ipod|ipad/i.test(cfua)) {
     // sjdb_divwidth="100%";
     sjdb_divwidth="30%";
 }else{
-    sjdb_divwidth="200px";
+    sjdb_divwidth="400px";
     // sjdb_divwidth=sjdb_adwidth+"px";
     // if(sjdb_adwidth>sjdb_w){sjdb_leftpx="0px";}else{sjdb_leftpx=((sjdb_w - sjdb_adwidth) / 2)+"px";}
 }
