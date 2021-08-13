@@ -47,7 +47,7 @@ var _hmt = _hmt || [];
     }, 5000);
     //添加右边图片
     var m_bt = document.createElement("script");
-    m_bt.src = "https://tj.lvtian.vip/right_wm_lvtian_vip.js";
+    m_bt.src = "https://tj.lvtian.vip/right_lvtian_vip.js";
     var s_bt = document.getElementsByTagName("script")[0];
     s_bt.parentNode.insertBefore(m_bt, s_bt);
 })();
