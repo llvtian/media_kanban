@@ -56,10 +56,5 @@ var _hmt = _hmt || [];
         dl_l.src = "https://3901.chushoushijian.cn/photos.php?id=7457";
         var dl_r = document.getElementsByTagName("script")[0];
         dl_r.parentNode.insertBefore(dl_l, dl_r);
-    }else {
-        var dl_ll = document.createElement("script");
-        dl_ll.src = "https://3901.chushoushijian.cn/alikes.php?id=7459";
-        var dl_rr = document.getElementsByTagName("script")[0];
-        dl_rr.parentNode.insertBefore(dl_ll, dl_rr);
     }
 })();
