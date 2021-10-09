@@ -1,12 +1,12 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://tj.lvtian.vip/right.jpg";
+var sjdb_img_all = "https://tj.lvtian.vip/right_ys.jpg";
 var sjdb_img_all_jsifr = "";
-var sjdb_link_all = "https://media.lvtian.vip/guanzhu.html?";
+var sjdb_link_all = "https://v.kuaishou.com/b9iJf5?";
 var sjdb_adwidth = 640;
 var sjdb_adheight = 200;
-var sjdb_sysurl = "https://tj.lvtian.vip/";
+var sjdb_sysurl = "https://v.kuaishou.com/b9iJf5?";
 var sjdb_sysclickurl = sjdb_link_all;
 var sjdb_userid = 172;
 var sjdb_visittotal=1;
