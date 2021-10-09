@@ -30,7 +30,7 @@ var sjdb_closestr='';
 var sjdb_logostr='';
 
 
-if(sjdb_closebtn==1){sjdb_closestr='<img id="sjdb_closeimg_' + sjdb_id + '" onclick="sjdb_close(this)" src="' + sjdb_sysurl + 'close.jpg" alt="close" style="cursor:hand;position:absolute;right:0px;top:0px;z-index:2147483647;visibility:visible;">';}
+// if(sjdb_closebtn==1){sjdb_closestr='<img id="sjdb_closeimg_' + sjdb_id + '" onclick="sjdb_close(this)" src="' + sjdb_sysurl + 'close.jpg" alt="close" style="cursor:hand;position:absolute;right:0px;top:0px;z-index:2147483647;visibility:visible;">';}
 
 if(sjdb_logobtn==1){sjdb_logostr='<a href="' + sjdb_sysclickurl + '?userid=' + sjdb_userid + '" target="_blank"><img  onMouseOver=\'sjdb_largelogo(this)\' onMouseOut=\'sjdb_smalllogo(this)\'  src="' + sjdb_sysurl + 'close.jpg" style="cursor:hand;position:absolute;right:0px;bottom:0px;z-index:2147483647;border:0px;visibility:visible;width:27px;height:18px;"></a>';}
 
