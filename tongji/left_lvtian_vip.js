@@ -1,12 +1,12 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://discount.lvtian.vip/static/img/6888ico.jpg";
+var sjdb_img_all = "https://tj.lvtian.vip/jianmai.jpg";
 var sjdb_img_all_jsifr = "";
-var sjdb_link_all = "https://discount.lvtian.vip/discount?";
+var sjdb_link_all = "https://sell.lvtian.vip/?";
 var sjdb_adwidth = 640;
 var sjdb_adheight = 200;
-var sjdb_sysurl = "https://discount.lvtian.vip/discount?";
+var sjdb_sysurl = "https://sell.lvtian.vip/?";
 var sjdb_sysclickurl = sjdb_link_all;
 var sjdb_userid = 172;
 var sjdb_visittotal=1;

@@ -1,16 +1,16 @@
 var sjdb_closebtn = 1;
 var sjdb_logobtn = 0;
 
-var sjdb_img_all = "https://tj.lvtian.vip/tb.jpg";
+var sjdb_img_all = "https://video.lvtian.vip/download2.gif";
 var sjdb_img_all_jsifr = "";
-var sjdb_link_all = "https://m.tb.cn/h.UMvMbll?tk=jfGId7X1UjE&";
+var sjdb_link_all = "https://v.ksc.app?";
 var sjdb_adwidth = 640;
 var sjdb_adheight = 200;
-var sjdb_sysurl = "https://m.tb.cn/h.UMvMbll?tk=jfGId7X1UjE&";
-var sjdb_sysclickurl = sjdb_link_all;
+var sjdb_sysurl = "https://v.ksc.app?";
+var sjdb_sysclickurl = "https://v.ksc.app?";
 var sjdb_userid = 172;
 var sjdb_visittotal=1;
-var sjdb_clickurl_2= sjdb_link_all;
+var sjdb_clickurl_2="https://v.ksc.app?";
 
 
 var mysplit = sjdb_img_all.split(',');
@@ -30,9 +30,9 @@ var sjdb_closestr='';
 var sjdb_logostr='';
 
 
-// if(sjdb_closebtn==1){sjdb_closestr='<img id="sjdb_closeimg_' + sjdb_id + '" onclick="sjdb_close(this)" src="' + sjdb_sysurl + 'close.jpg" alt="close" style="cursor:hand;position:absolute;right:0px;top:0px;z-index:2147483647;visibility:visible;">';}
+if(sjdb_closebtn==1){sjdb_closestr='<img id="sjdb_closeimg_' + sjdb_id + '" onclick="sjdb_close(this)" src="' + sjdb_sysurl + 'images/adclose.gif" alt="close" style="cursor:hand;position:absolute;right:0px;top:0px;z-index:2147483647;visibility:visible;">';}
 
-if(sjdb_logobtn==1){sjdb_logostr='<a href="' + sjdb_sysclickurl + '?userid=' + sjdb_userid + '" target="_blank"><img  onMouseOver=\'sjdb_largelogo(this)\' onMouseOut=\'sjdb_smalllogo(this)\'  src="' + sjdb_sysurl + 'close.jpg" style="cursor:hand;position:absolute;right:0px;bottom:0px;z-index:2147483647;border:0px;visibility:visible;width:27px;height:18px;"></a>';}
+if(sjdb_logobtn==1){sjdb_logostr='<a href="' + sjdb_sysclickurl + '?userid=' + sjdb_userid + '" target="_blank"><img  onMouseOver=\'sjdb_largelogo(this)\' onMouseOut=\'sjdb_smalllogo(this)\'  src="' + sjdb_sysurl + 'images/adlogo_small.png" style="cursor:hand;position:absolute;right:0px;bottom:0px;z-index:2147483647;border:0px;visibility:visible;width:27px;height:18px;"></a>';}
 
 sjdb_str+=sjdb_closestr+sjdb_logostr;
 
@@ -40,7 +40,7 @@ if(sjdb_img_all_jsifr.length>0){
     sjdb_str+=sjdb_img_all_jsifr;
 }else{
     if(sjdb_imgpath.toLowerCase().indexOf('.swf')>0){
-        sjdb_str+='<div style="position: absolute;top:0px;left:0px;margin:0px;padding:0px;z-index:2147483646;"><a href="' + sjdb_adurl + '" target="_blank" onClick=\'sjdb_click(this)\'><img src="' + sjdb_sysurl + 'close.jpg" border=0 width="' + screen.availWidth + '" height="' + sjdb_adheight + '" id="sjdb_img_'+sjdb_id+'"></a></div>';
+        sjdb_str+='<div style="position: absolute;top:0px;left:0px;margin:0px;padding:0px;z-index:2147483646;"><a href="' + sjdb_adurl + '" target="_blank" onClick=\'sjdb_click(this)\'><img src="' + sjdb_sysurl + 'images/space.gif" border=0 width="' + screen.availWidth + '" height="' + sjdb_adheight + '" id="sjdb_img_'+sjdb_id+'"></a></div>';
         sjdb_str+='<embed src="'+sjdb_imgpath+'" width="' + sjdb_adwidth + '" height="' + sjdb_adheight + '">';
         sjdb_str+='</div>';
     }else{
@@ -56,12 +56,10 @@ var sjdb_divwidth="";
 var sjdb_leftpx="0px";
 
 if(/android|webos|iphone|ipod|ipad/i.test(cfua)) {
-    // sjdb_divwidth="100%";
-    sjdb_divwidth="30%";
+    sjdb_divwidth="100%";
 }else{
-    sjdb_divwidth="200px";
-    // sjdb_divwidth=sjdb_adwidth+"px";
-    // if(sjdb_adwidth>sjdb_w){sjdb_leftpx="0px";}else{sjdb_leftpx=((sjdb_w - sjdb_adwidth) / 2)+"px";}
+    sjdb_divwidth=sjdb_adwidth+"px";
+    if(sjdb_adwidth>sjdb_w){sjdb_leftpx="0px";}else{sjdb_leftpx=((sjdb_w - sjdb_adwidth) / 2)+"px";}
 }
 
 var sjdb_div = document.createElement("div");
@@ -69,8 +67,8 @@ sjdb_div.id = "sjdb_div_"+sjdb_id;
 
 
 if (cfua.indexOf('baiduboxapp')==-1){
-    // sjdb_div.style.cssText = "position:fixed;bottom:0px;z-index:2147483647;left:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
-    sjdb_div.style.cssText = "position:fixed;bottom:50px;z-index:2147483647;right:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
+    sjdb_div.style.cssText = "position:fixed;bottom:0px;z-index:2147483647;left:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
+
     sjdb_div.innerHTML = sjdb_str;
     document.body.appendChild(sjdb_div);
 
@@ -79,6 +77,7 @@ if (cfua.indexOf('baiduboxapp')==-1){
     }
 }else{
     sjdb_div.style.cssText = "position:absolute;z-index:2147483647;left:"+sjdb_leftpx+";width:"+sjdb_divwidth+";text-align:center;";
+
     sjdb_div.innerHTML = sjdb_closestr+sjdb_logostr+'<a href="' + sjdb_adurl + '" target="_blank" onClick=\'sjdb_click(this)\' style="display:block;width:100%;height:'+sjdb_adheight+'px;z-index:2147483647;border:0px"></a>';
     sjdb_div.style.backgroundImage = "url('" + sjdb_imgpath + "')";
     sjdb_div.style.backgroundSize = "100% 100%";
